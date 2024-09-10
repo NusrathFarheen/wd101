@@ -21,7 +21,7 @@ function addEntryToTable() {
     row.insertCell(1).textContent = email;
     row.insertCell(2).textContent = password;
     row.insertCell(3).textContent = dob;
-    row.insertCell(4).textContent = accepted ? true :false;
+    row.insertCell(4).textContent = accepted ? true:false;
 }
 function saveEntriesToLocalStorage() {
     const tableRows = document.querySelectorAll('table tr');
