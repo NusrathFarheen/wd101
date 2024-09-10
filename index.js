@@ -32,7 +32,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         <td>${email}</td>
         <td>${password}</td>
         <td>${dob.toISOString().split('T')[0]}</td>
-        <td>${acceptTerms ? 'Yes' : 'No'}</td>
+        <td>${acceptTerms ? 'true' : 'false'}</td>
     `;
     tableBody.appendChild(row);
 
